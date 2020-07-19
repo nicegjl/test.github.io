@@ -1,11 +1,12 @@
 /* globals Docute */
 
 new Docute({
+	title: 'Blog',
 	target: '#docute',
 	sourcePath: './docs/',
 	nav: [
 		{
-			title: 'Home',
+			title: 'Javascript基础',
 			link: '/'
 		},
 		{
