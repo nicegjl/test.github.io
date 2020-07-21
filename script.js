@@ -1,7 +1,8 @@
 /* globals Docute */
 
 new Docute({
-	title: 'Blog',
+	title: "Li's Blog",
+	darkThemeToggler: true,
 	target: '#docute',
 	sourcePath: './docs/',
 	nav: [
@@ -16,17 +17,18 @@ new Docute({
 	],
 	sidebar: [
 		{
-			title: 'Guide',
+			title: '基本概念',
 			links: [
 				{
-					title: 'Introduction',
-					link: '/introduction'
+					title: '数据类型',
+					link: '/basicConcept/typeOfData'
 				},
 				{
-					title: 'Installation',
-					link: '/installation'
+					title: '操作符',
+					link: '/basicConcept/operator'
 				}
-			]
+			],
+			TOC: true
 		}
 	]
 })
